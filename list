@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMWVSeeYLfSMBtckasD7s6f",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TanuAgarwal741/Tanu-Agarwal/blob/main/list\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Sonk7L20Fjr1",
+        "outputId": "7f6ede63-33da-46d9-a146-9df03a0a63f8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['my', 'name', 'is', 'list']\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=list((\"my\",\"name\",\"is\"))\n",
+        "a.append(\"list\")\n",
+        "print(a)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=list((\"my\",\"name\",\"is\"))\n",
+        "a.insert(1,\"list\")\n",
+        "print(a)\n",
+        "if \"name\" in a:\n",
+        "  print(\"name find in a\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Abqu7q6aFoyp",
+        "outputId": "7ae64e76-ab1c-4d21-acbc-2296cb8895a4"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['my', 'list', 'name', 'is']\n",
+            "name find in a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=list((\"rose\",))\n",
+        "b=list((\"is\",\"red\"))\n",
+        "a.extend (b)\n",
+        "print(a)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BWYF-hxIHCpT",
+        "outputId": "58f6fc60-5fd2-4bfa-c506-358bfe512644"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['rose', 'is', 'red']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
